@@ -1,0 +1,25 @@
+// fonts
+@mixin opensans($style : regular) 
+  @if $style == regular 
+    font-family: "Open Sans", sans-serif
+    font-weight: 400
+  
+
+  @if $style == light 
+    font-family: "Open Sans", sans-serif
+    font-weight: 300
+
+
+  @if $style == italic 
+    font-family: "Open Sans", sans-serif
+    font-weight: 400
+    font-style: italic
+
+  @if $style == bold
+    font-family: "Open Sans", sans-serif
+    font-weight: 700
+
+// reset
+@mixin reset
+  padding: 0
+  margin: 0
